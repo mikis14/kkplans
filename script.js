@@ -26,6 +26,8 @@ const Divide = (cipars1, cipars2) => {
 }
 
 plusins.addEventListener('click', () => {
-    console.log(Add(firstValue,secondValue))
-    
+    answer.textContent = Add(parseInt(inputins1.value) ,parseInt(inputins2.value))
+
+    inputins1.value = ""
+    inputins2.value = ""
 })
