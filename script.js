@@ -58,4 +58,3 @@ divide.addEventListener('click', () => {
 
     clear()
 })
-
