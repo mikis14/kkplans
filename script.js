@@ -28,33 +28,25 @@ const clear = () => {
 }
 
 plusins.addEventListener('click', () => {
-    answer.textContent = Add
-    (parseInt(inputins1.value),
-    parseInt(inputins2.value))
+    answer.textContent = Add(parseInt(inputins1.value),parseInt(inputins2.value))
 
     clear()
 })
 
 minus.addEventListener('click', () => {
-    answer.textContent = Subtract
-    (parseInt(inputins1.value),
-    parseInt(inputins2.value))
+    answer.textContent = Subtract(parseInt(inputins1.value),parseInt(inputins2.value))
 
     clear()
 })
 
 multiply.addEventListener('click', () => {
-    answer.textContent = Multiply
-    (parseInt(inputins1.value),
-    parseInt(inputins2.value))
+    answer.textContent = Multiply(parseInt(inputins1.value),parseInt(inputins2.value))
 
     clear()
 })
 
 divide.addEventListener('click', () => {
-    answer.textContent = Divide
-    (parseInt(inputins1.value),
-    parseInt(inputins2.value))
+    answer.textContent = Divide(parseInt(inputins1.value),parseInt(inputins2.value))
 
     clear()
 })
